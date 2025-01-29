@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604345081344",
+    "project_id": "bett-brew-crew",
+    "storage_bucket": "bett-brew-crew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604345081344:android:171d0c2b77785ec59a82e5",
+        "android_client_info": {
+          "package_name": "com.bett.brew_crew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhi4fXyjC8bm4EQ244zk3U7VSCQc8TjBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
