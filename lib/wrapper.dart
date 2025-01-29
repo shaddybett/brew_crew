@@ -1,3 +1,4 @@
+import 'package:brew_crew/authenticate/authentiacte.dart';
 import 'package:brew_crew/home/home.dart';
 import 'package:flutter/material.dart';
 
@@ -6,8 +7,6 @@ class Wrapper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(
-      child: Home(),
-    );
+    return Authenticate();
   }
 }
