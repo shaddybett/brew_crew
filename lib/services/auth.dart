@@ -5,13 +5,16 @@ class AuthService{
 // signin anon
     final FirebaseAuth _auth = FirebaseAuth.instance;
 
-    Future signInAnon() async {
+    Future<User?> signInAnon() async {
         try {
-            AuthResult result = await _auth.signInAnonymously();
-            FirebaseUser  user = result;
+            UserCredential result = await _auth.signInAnonymously();
+            User? user = result.user;
+            return user;
         }catch (e){
+            print('Error: $e');
+            return null;
 
         }
     } 
-// signin with email & pass
+// signin with email & pass 
 }
