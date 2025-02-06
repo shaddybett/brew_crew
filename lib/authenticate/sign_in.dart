@@ -17,7 +17,7 @@ class _SignInState extends State<SignIn> {
         elevation: 0.0,
       ),
       body: Container(
-        
+        padding: EdgeInsets.symmetric(vertical: 20.0,horizontal: 50.0),
       ),
     );
   }
