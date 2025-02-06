@@ -15,6 +15,7 @@ class _SignInState extends State<SignIn> {
       appBar: AppBar(
         backgroundColor: Colors.brown[400],
         elevation: 0.0,
+        title: Text('Sign in to Brew Crew'),
       ),
       body: Container(
         padding: EdgeInsets.symmetric(vertical: 20.0,horizontal: 50.0),
@@ -22,4 +23,4 @@ class _SignInState extends State<SignIn> {
       ),
     );
   }
-}
+}   
